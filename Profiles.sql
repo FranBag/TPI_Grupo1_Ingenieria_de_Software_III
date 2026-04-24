@@ -1,11 +1,11 @@
-CREATE TABLE Profiles (
-    profile_id SERIAL PRIMARY KEY,
-    bio TEXT,
-    birth_date DATE NOT NULL, -- Usado para calcular rango de edad
-    gender VARCHAR(50),
-    location_address VARCHAR(255),
-    city VARCHAR(100),
-    sports_interests TEXT,
-    search_radius INTEGER, -- En kilómetros
-    languages TEXT
+CREATE TABLE PROFILES (
+    PROFILE_ID SERIAL PRIMARY KEY,
+    BIO TEXT,
+    BIRTH_DATE DATE NOT NULL, -- Usado para calcular rango de edad
+    GENDER VARCHAR(50),
+    LOCATION_ADDRESS VARCHAR(255),
+    CITY VARCHAR(100),
+    SPORTS_INTERESTS TEXT,
+    SEARCH_RADIUS INTEGER, -- En kilómetros
+    LANGUAGES TEXT
 );
