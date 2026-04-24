@@ -1,7 +1,7 @@
 CREATE TABLE PROFILES (
     PROFILE_ID SERIAL PRIMARY KEY,
     BIO TEXT,
-    FECHA_NACIMIENTO DATE NOT NULL, -- Usado para calcular rango de edad
+    BIRTH_DATE DATE NOT NULL, -- Usado para calcular rango de edad
     GENDER VARCHAR(50),
     LOCATION_ADDRESS VARCHAR(255),
     CITY VARCHAR(100),
