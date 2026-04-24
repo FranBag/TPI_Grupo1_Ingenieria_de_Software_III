@@ -22,7 +22,7 @@ def test_sql_checks():
 if __name__ == "__main__":
     try:
         test_sql_checks()
-        print("✅ Todos los tests pasaron exitosamente (5/5)")
+        print("Todos los tests pasaron exitosamente (5/5)")
     except AssertionError as e:
-        print(f"❌ Error en el test: {e}")
+        print(f"Error en el test: {e}")
         exit(1)
