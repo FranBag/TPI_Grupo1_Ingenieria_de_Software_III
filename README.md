@@ -16,7 +16,7 @@ Para trabajar con este proyecto de forma local, sigue estos pasos:
 ### 1. Clonar el repositorio
 Abre una terminal y ejecuta el siguiente comando:
 ```bash
-git clone [https://github.com/](https://github.com/)[TU_USUARIO]/TPI_Grupo1_Ingenieria_de_Software_III.git
+git clone https://github.com/FranBag/TPI_Grupo1_Ingenieria_de_Software_III.git
 cd TPI_Grupo1_Ingenieria_de_Software_III
 ```
 ### 2. Requisitos previos
