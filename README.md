@@ -6,7 +6,7 @@
 Este repositorio contiene la implementación de un módulo de gestión de perfiles de usuario, desarrollado para la cátedra de Ingeniería de Software III (Universidad de la Cuenca del Plata). El foco principal de esta actividad es la **Gestión de la Configuración** y la **Integración Continua (CI)** mediante herramientas de automatización.
 
 ### Integrantes y División de Tareas
-* *Bagneres Francisco*: Configuración de Pipeline CI (`sql-ci.yml`).
+* *Bagneres Francisco*: Configuración de Pipeline CI (`main-ci.yml `).
 * *Hope John*: Revisión de código y soporte de integración.
 * *Tabarez Kiara*: Desarrollo de Tests Unitarios (`test_schema.py`).
 * *Tomas Mateo*: Diseño de Base de Datos SQL (`Profiles.sql`).
@@ -29,6 +29,9 @@ python test_schema.py
 
 ## Configuración de Integración Continua (CI)
 Este proyecto utiliza **GitHub Actions** para garantizar la calidad del código en cada contribución.
+* **Enlace al archivo de configuración:** .github/workflows/main-ci.yml 
+https://github.com/FranBag/TPI_Grupo1_Ingenieria_de_Software_III.git/blob/main/.github/workflows/main-ci.yml
+
 ### ¿Cómo funciona la CI en este proyecto?
 Nuestro pipeline se dispara automáticamente ante cada `push` o `pull request` hacia la rama `main`. El proceso automatizado es el siguiente:
 1. **Validación de Estilo (Linting):** Se utiliza `sqlfluff` para revisar que el archivo `Profiles.sql` cumpla con los estándares de sintaxis y estilo del equipo (por ejemplo, el uso obligatorio de mayúsculas en palabras clave).
@@ -38,4 +41,4 @@ Nuestro pipeline se dispara automáticamente ante cada `push` o `pull request` h
 ## Estructura del Repositorio
 * `Profiles.sql`: Script principal de creación de la tabla de perfiles.
 * `test_schema.py`: Script de validación lógica de los 5 tests unitarios.
-* `.github/workflows/sql-ci.yml`: Definición del pipeline de automatización.
+* `.github/workflows/main-ci.yml`: Definición del pipeline de automatización.
