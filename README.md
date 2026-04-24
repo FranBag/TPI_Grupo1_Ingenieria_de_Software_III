@@ -11,7 +11,7 @@ Este repositorio contiene la implementación de un módulo de gestión de perfil
 * *Tabarez Kiara*: Desarrollo de Tests Unitarios (`test_schema.py`).
 * *Tomas Mateo*: Diseño de Base de Datos SQL (`Profiles.sql`).
 
-##Instrucciones para Clonar y Ejecutar
+## Instrucciones para Clonar y Ejecutar
 Para trabajar con este proyecto de forma local, sigue estos pasos:
 ### 1. Clonar el repositorio
 Abre una terminal y ejecuta el siguiente comando:
