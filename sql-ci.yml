@@ -29,6 +29,13 @@ jobs:
       - name: Instalar SQLFluff
         run: pip install sqlfluff
 
-      - name: Verificar sintaxis SQL (Consigna 3.3)
+      - name: Verificar sintaxis SQL
         # Esto revisa el archivo sql con un linter.
         run: sqlfluff lint . --dialect postgres 
+        
+      - name: Ejecutar 5 Tests Unitarios
+        run: python test_schema.py
+
+      - name: Reporte de estado
+        if: always()
+        run: echo "El pipeline finalizó con éxito o fallo según los tests anteriores."
