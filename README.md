@@ -30,7 +30,7 @@ python test_schema.py
 ## Configuración de Integración Continua (CI)
 Este proyecto utiliza **GitHub Actions** para garantizar la calidad del código en cada contribución.
 * **Enlace al archivo de configuración:** .github/workflows/main-ci.yml 
-https://github.com/FranBag/TPI_Grupo1_Ingenieria_de_Software_III.git/blob/main/.github/workflows/main-ci.yml
+https://github.com/FranBag/TPI_Grupo1_Ingenieria_de_Software_III.git/main/.github/workflows/main-ci.yml
 
 ### ¿Cómo funciona la CI en este proyecto?
 Nuestro pipeline se dispara automáticamente ante cada `push` o `pull request` hacia la rama `main`. El proceso automatizado es el siguiente:
